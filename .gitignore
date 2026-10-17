@@ -1,0 +1,27 @@
+node_modules
+.env
+history.json
+modstate.json
+live-tokens.json
+gate.json
+myra.db
+myra.db-*
+.netlify
+
+.build-test
+.build-maps
+
+.build-dev
+
+# Local secrets and generated files
+.env
+.env.*
+!.env.example
+*.db
+*.db-*
+.gitignore.backup
+*.pre-termux
+.build-termux/
+node_modules/
+
+*.pre-termux-backup
